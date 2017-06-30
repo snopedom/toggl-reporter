@@ -2,7 +2,7 @@
 
 ## Instalation
 
-Installed ruby is required!
+Ruby instalation on your station is required!
 
 Before first start of script please open terminal, go to toggl tracker directory and run `bash setup.sh` command.
 
