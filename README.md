@@ -2,9 +2,11 @@
 
 ## Instalation
 
+Installed ruby is required!
+
 Before first start of script please open terminal, go to toggl tracker directory and run `bash setup.sh` command.
 
-## Usage
+## Required parameters
 
 For using of toggl report script you must provide 4 parameters.
 
@@ -29,9 +31,8 @@ For using of toggl report script you must provide 4 parameters.
 * **year**
 
 	Year in format YYYY
+## Generating report
 
-
-
-Finally, to generate report (in csv), run script in root folder:
+To generate report in csv format, run script in root folder:
 
 `ruby main.rb --token=<token> --project_id=<project_id> --month=<month> --year=<year>`
