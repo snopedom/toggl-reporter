@@ -29,7 +29,9 @@ For using of toggl report script you must provide 4 parameters.
 * **year**
 
 	Year in format YYYY
-	
-----
 
-To generate csv report run in script root folder: `ruby main.rb --token=<token> --project_id=<project_id> --month=<month> --year=<year>`
+
+
+Finally, to generate report (in csv), run script in root folder:
+
+`ruby main.rb --token=<token> --project_id=<project_id> --month=<month> --year=<year>`
