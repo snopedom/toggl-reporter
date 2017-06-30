@@ -1,28 +1,35 @@
-Toggl day report script README
--------------------------------
+#Toggl day report script
 
-Before first start of script please run 'bash setup.sh' command.
+##Instalation
 
-To run script you must provide 4 arguments:
+Before first start of script please open terminal, go to toggl tracker directory and run `bash setup.sh` command.
 
-TOKEN
------
-In Toggl web admin go to 'Profile settings' (https://toggl.com/app/profile) and on bottom of page is field 'API token'
+##Usage
 
-Example: d8c97bb22aa69cef234fc9823e408e9b
+For using of toggl report script you must provide 4 parameters.
 
-PROJECT_ID
-----------
-In Toggl web admin go to Projects list (https://toggl.com/app/projects), than open detail of Erste hub project and last number of url is project ID.
+* **token**
 
-Example: https://toggl.com/app/projects/890996/edit/44903966  --> PROJECT ID is 44903966
+	In Toggl web admin go to [Profile settings](https://toggl.com/app/profile) and on bottom of page you can find your api key in field `API Token`
 
-MONTH
------
-Number of month in format M or MM
+	Example: `d8c97bb22aa69cef234fc9823e408e9b`
 
-YEAR
-----
-Year in format YYYY
+* **project_id**
 
-To generate csv report run in script folder: 'ruby main.rb --token=<TOKEN> --project_id=<PROJECT ID> --month=<MONTH> --year=<YEAR>'
+	In Toggl web admin, go to [Projects list](https://toggl.com/app/projects), than open detail of project (that you want track) and id after last slash in url is project ID.
+
+	Example: `https://toggl.com/app/projects/123456/edit/12345678`
+	
+	In this case `project_id` is **12345678**
+
+* **month**
+
+	Month number in format M or MM
+
+* **year**
+
+	Year in format YYYY
+	
+--
+
+To generate csv report run in script root folder: `ruby main.rb --token=<token> --project_id=<project_id> --month=<month> --year=<year>`
