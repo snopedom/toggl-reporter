@@ -1,10 +1,10 @@
-#Toggl day report script
+# Toggl day report script
 
-##Instalation
+## Instalation
 
 Before first start of script please open terminal, go to toggl tracker directory and run `bash setup.sh` command.
 
-##Usage
+## Usage
 
 For using of toggl report script you must provide 4 parameters.
 
@@ -30,6 +30,6 @@ For using of toggl report script you must provide 4 parameters.
 
 	Year in format YYYY
 	
---
+----
 
 To generate csv report run in script root folder: `ruby main.rb --token=<token> --project_id=<project_id> --month=<month> --year=<year>`
