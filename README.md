@@ -26,11 +26,11 @@ For using of toggl report script you must provide 4 parameters.
 
 * **month**
 
-	Month number in format M or MM
+	Month number in format `M` or `MM`
 
 * **year**
 
-	Year in format YYYY
+	Year in format `YYYY`
 ## Generating report
 
 To generate report in csv format, run script in root folder:
