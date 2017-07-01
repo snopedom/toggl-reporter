@@ -1,4 +1,4 @@
-# Toggl day report script
+# Toggl report script
 
 ## Instalation
 
