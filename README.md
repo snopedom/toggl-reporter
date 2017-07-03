@@ -1,6 +1,6 @@
 # Toggl report script
 
-## Instalation
+## Instalation (Only MAC or LINUX #PrayForWindows)
 
 Ruby instalation on your station is required!
 
